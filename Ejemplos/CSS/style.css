@@ -1,0 +1,20 @@
+h1{
+    color: greenyellow;
+    background-color: red;
+    font-family: 'Dancing Script', cursive;
+}
+
+/**Se utiliza el hashtag para seleccionar un ID **/
+#parrafoprincipal {
+    background-color: aquamarine;
+    color: purple;
+    text-decoration: line-through;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+/**Se utiliza el punto para seleccionar una clase**/
+.parrafossecundarios {
+    background-color:brown;
+    font-size: 20px;
+}

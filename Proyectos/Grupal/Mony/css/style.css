@@ -1,0 +1,18 @@
+*{
+    box-sizing: inherit;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    color: var(--text-color);
+    padding-top: 2100px;
+    height:1000px;
+    background: linear-gradient(#0C1D30, #090a0f); 
+    left: 100;
+}

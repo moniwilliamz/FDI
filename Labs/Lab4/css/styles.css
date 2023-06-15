@@ -1,0 +1,442 @@
+/*MENU*/
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.header{
+    background-color: #0769e9;
+    height: 80px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    max-width: 992px;
+    margin: 0 auto;
+}
+
+.nav-link{
+    color: white;
+    text-decoration: none;
+}
+
+.logo{
+    font-size: 30px;
+    font-weight: bold;
+    padding: 0 40px;
+    line-height: 80px;
+}
+
+.nav-menu{
+    display: flex;
+    margin-right: 40px;
+    list-style: none;
+}
+
+.nav-menu-item{
+    font-size: 18px;
+    margin: 0 10px;
+    line-height: 80px;
+    text-transform: uppercase;
+    width: max-content;
+}
+
+.nav-menu-link{
+    padding: 8px 12px;
+    border-radius: 3px;
+}
+
+.nav-menu-link:hover{
+    background-color: #034574;
+    transition: 0.5s;
+}
+
+/*BODY*/
+body {
+    margin: 0;
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    padding: 90px 20px 0;
+}
+
+body:before {
+    content: "";
+    width: 100%;
+    min-height: 2000vh;
+    position:absolute;
+    top:0;
+    left:0;
+    background: linear-gradient(blue,orange);
+    opacity: 0.5;
+    z-index: -1;
+}
+
+/*Sección 1*/
+#sec1Img { 
+    margin: 0;
+    width:1850px;
+    height:700px;
+    background-image:url(zacatlanletrotas.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    position: static;
+  }
+
+.intro-parrafo{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: bold;
+    font-size: larger;
+    color:#FFFFFF;
+    object-position: inherit;
+    position: static;
+}
+
+h1{
+    font-size: 60px;
+    margin: auto;
+    margin-top: 50px;
+    margin-left: 200px;
+}
+
+#p1{
+    font-size: 40px;
+    margin: auto;
+    margin-left: 50px;
+    margin-top: 60px;
+}
+
+.cuadrado{
+    margin-top: 50px;
+    width: 800px;
+    height: 600px;
+    position: static;
+    background-color: rgba(194, 126, 0, 0.753);
+}
+
+.div2{
+    position: static;
+    margin-left: 1100px;
+    margin-top: -600px;
+}
+
+#ImgSec1 {
+    width: 700px;
+    height: 600px;
+    border-radius: 246px;
+}
+
+#divscreen{
+    display:flex;
+}
+
+/*Sección 2*/
+.cuadrado2{
+    margin-top: 1px;
+    width: 1850px;
+    height: 600px;
+    position: static;
+    background-color: rgba(129, 5, 212, 0.753);
+}
+
+#Titulo2{
+    font-family: 'Oswald', sans-serif;
+    font-size: 40px;
+    font-style: bold;
+    color:#FFFFFF;
+    text-align: center;
+}
+
+#Mapaprincipal{
+    margin-left: 100px;
+}
+
+.cuad2small{
+    margin-left: 650px;
+    margin-top: -450px;
+    width: 600px;
+    height: 450px;
+    position: static;
+    background-color: rgba(253, 10, 132, 0.753);
+    border-radius: 120px;
+}
+
+.cuad2_5small{
+    margin-left: 100px;
+    margin-top: 50px;
+    width: 400px;
+    height: 200px;
+    position: absolute;
+    border-radius: 120px;
+}
+
+#letraTabla{
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    font-style: bold;
+    color:#FFFFFF;
+    text-align: center;
+}
+
+.cuad3small{
+    margin-left: 1290px;
+    margin-top: -350px;
+    width: 500px;
+    height: 200px;
+    position: static;
+    background-color: rgb(0, 0, 0);
+    border-radius: 50px;
+}
+
+.cuad4small{
+    margin-left: 25px;
+    margin-top: 20px;
+    width: 450px;
+    height: 150px;
+    position: absolute;
+    background-color: rgb(226, 204, 0);
+    border-radius: 50px;
+}
+
+#letraAviso{
+    font-family: 'Kanit', sans-serif;
+    font-size: 30px;
+    font-style: bold;
+    color:#000000;
+    text-align: center;
+}
+
+/*Sección 3*/
+
+.cuadrado3{
+    margin-top: 1px;
+    width: 1850px;
+    height: 1060px;
+    position: static;
+    background-color: rgb(255, 255, 255);
+}
+
+.historia-title{
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.historia-subtitle{
+    font-size: 25px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    color: #000000;
+}
+
+.historia-text{
+    font-size: 18px;
+    color: #000000;
+    font-family: 'Roboto', sans-serif;
+}
+
+.historia{
+    padding: 25px;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.historia-grid{
+    display:grid;
+    grid-template-columns: auto 2px auto;
+    gap: 20px 70px;
+}
+
+.line{
+    background-color: black;
+    position: relative;
+}
+
+#linepe{
+    margin-left: -72px;
+    margin-top: -20px;
+    margin-bottom: -50px;
+    width: 2px;
+    height: 400px;
+}
+
+#imgencita {
+    width: 300px;
+    height: 300px;
+    border-radius: 246px;
+    margin-left: 300px;
+}
+
+#imgencita2 {
+    width: 300px;
+    height: 300px;
+    border-radius: 246px;
+    margin-left: 300px;
+}
+
+/*Sección 4*/
+
+#sec4Img { 
+    margin: 0;
+    margin-bottom: 10px;
+    width:1850px;
+    height:700px;
+    background-image:url(zacatlanvista.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    position: static;
+  }
+
+  .cuadrado4{
+    margin-top: 50px;
+    margin-left: 40px;;
+    width: 1750px;
+    height: 600px;
+    position: static;
+    background-color: rgba(194, 126, 0, 0.753);
+}
+
+.clima-text{
+    font-size: 24px;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+}
+
+.clima-title{
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.clima-subtitle{
+    font-size: 27px;
+    font-family: 'Lato', sans-serif;
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
+/*Seccion 5*/
+.sec5Img { 
+    margin: 0;
+    margin-top: -9px;
+    width:1850px;
+    height:700px;
+    background-image:url(manza.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    position: static;
+  }
+
+.cuadrado5{
+    width: 1850px;
+    height: 700px;
+    position: static;
+    background-color: rgba(37, 32, 22, 0.664);
+}
+
+.economiatitle{
+    text-align: center;
+    color: #FFFFFF;
+    font-family: 'Kanit', sans-serif;
+    font-size: 40px;
+}
+
+.economiatext{
+    font-size: 24px;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+}
+
+.economia-grid{
+    display:grid;
+    grid-template-columns: auto 350px auto;
+    gap: 20px 20px;
+}
+
+.carrusel{
+    margin:auto;
+    display: flex;
+    flex-wrap: nowrap;
+    overflow: hidden;
+    animation: change 20s infinite;
+}
+
+.carrusel ul{
+    display: flex;
+    padding:0;
+    width: 50000%;
+}
+
+.carrusel li{
+    list-style: none;
+    width: 100%;
+}
+
+.carrusel img{
+    width: 350px;
+    height: 400px;
+}
+
+@keyframes change{
+    0%{margin-left: 0;}
+    5%{margin-left: 0;}
+
+    10%{margin-left: -100%;}
+    15%{margin-left: -100%;}    
+
+    20%{margin-left: -200%;}
+    25%{margin-left: -200%;} 
+
+    30%{margin-left: -300%;}
+    35%{margin-left: -300%;}
+    
+    40%{margin-left: -400%;}
+    45%{margin-left: -400%;}    
+
+    50%{margin-left: -500%;}
+    55%{margin-left: -500%;} 
+
+    60%{margin-left: -600%;}
+    65%{margin-left: -600%;} 
+
+    70%{margin-left: -700%;}
+    75%{margin-left: -700%;}    
+
+    80%{margin-left: -800%;}
+    85%{margin-left: -800%;} 
+
+    90%{margin-left: -900%;}
+    95%{margin-left: -900%;} 
+}
+
+/*Seccion 6*/
