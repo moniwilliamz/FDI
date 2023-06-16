@@ -2,7 +2,6 @@ const typed = new Typed('.typed', {
 	strings: [
 		'<i class="profesion">Desarrolladora Web</i>',
 		'<i class="profesion">Ingeniera Robótica</i>',
-		'<i class="profesion">Desarrolladora UX/UI</i>',
 		'<i class="profesion">Investigadora</i>'
 	],
     
